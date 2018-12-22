@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Posts</title>
+	<meta name="description" content=""/>
+	<meta name="robots" content="INDEX,FOLLOW">
+	
+	
+	<link rel="shortcut icon" href="https://lu.lumao.eu/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://lu.lumao.eu/favicon.ico" type="image/x-icon">
+	<link rel="canonical" href="https://lu.lumao.eu/post/">
+	<link rel="alternate" hreflang="fr-fr" href="https://lumao.eu/post/"/>
+	<link rel="alternate" hreflang="fr-ch" href="https://lumao.ch/post/"/>
+	<link href="https://lu.lumao.eu/post/index.xml" rel="feed" type="application/rss+xml" title="Développement Magento">
+	<meta name="generator" content="Hugo 0.53-DEV" />
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PXRXBBS');</script>
+    
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXRXBBS"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<a class="animsition-link site-logo" href="https://lu.lumao.eu/" >
+					
+					<p class="title">Lumao - Développement Magento</p>
+					
+				</a>
+			</div>
+			<div class="col-sm-10">
+				<nav id="site-nav" class="nav-toggle">
+					<ul class="menu">
+						<li><a href="https://lu.lumao.eu/"><i class="fa fa-code" aria-hidden="true"></i> Magento</a></li>
+						<li><a href="https://lu.lumao.eu/post/developpement-akeneo/"><i class="fa fa-codepen" aria-hidden="true"></i> Akeneo</a></li>
+						<li><a href="https://lu.lumao.eu/post/developpement-laravel/"><i class="fa fa-connectdevelop" aria-hidden="true"></i> Laravel</a></li>
+						<li><a href="https://lu.lumao.eu/post/contact/"><i class="fa fa-comments" aria-hidden="true"></i> Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+	<div class="container section" style="padding-top: 90px">
+		
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/docker-sync/">Docker Sync</a></h1>
+		<time>26.11.2018 00:00</time>
+		
+		<div>
+			 Eviter facilement les problèmes de synchronisation de fichiers sur Windows/Mac.
+Docker Sync http://docker-sync.io/
+docker-sync.yml
+version: '2' options: compose-dev-file-path: 'docker-compose.yml' verbose: true syncs: poc-magento2-sync: src: ./ sync_userid: '33' sync_excludes: [ '.idea', '.buildpath', '.project', '.settings', '.DS_Store', '.gitlab-ci.yml', 'generated', 'setup', 'vendor', 'var' ] watch_excludes: [ '.idea', '.buildpath', '.project', '.settings', '.DS_Store', '.gitlab-ci.yml', 'generated', 'setup', 'vendor', 'var' ]  docker-sync start  docker-compose.yml
+version: &quot;2&quot; services: php: image: lavoweb/php-7.0:xdebug expose: - 80 volumes: - app_sync:/var/www/html volumes: app_sync: external: name: poc-magento2-sync  docker-compose up -d  
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/openvpn-docker/">Configurer OpenVPN avec Docker</a></h1>
+		<time>22.06.2018 00:00</time>
+		
+		<div>
+			Un article très court aujourd&rsquo;hui pour monter un VPN sur un serveur avec docker-compose en quelques minutes.
+Serveur OpenVPN Très simple, on crée un répertoire openvpn et on met le fichier docker-compose.yml :
+openvpn: image: 'kylemanna/openvpn' volumes: - './data:/etc/openvpn' ports: - &quot;1194:1194/udp&quot; cap_add: - NET_ADMIN restart: always  On fait la configuration :
+docker run --name openvpn_openvpn_1 -v /etc/openvpn busybox docker run --volumes-from openvpn_openvpn_1 --rm kylemanna/openvpn ovpn_genconfig -u udp://VPN.SERVERNAME.COM docker run --volumes-from openvpn_openvpn_1 --rm -it kylemanna/openvpn ovpn_initpki  On crée un utilisateur :
+			
+				<a href="https://lu.lumao.eu/post/openvpn-docker/">Lire la suite...</a>
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/job-magento/">Recrutement développeur Magento</a></h1>
+		<time>09.04.2018 00:00</time>
+		
+		<div>
+			Avant toute chose, l&rsquo;offre est pour plusieurs profils, c&rsquo;est normal de ne pas avoir toutes les compétences !
+On recherche un développeur Magento confirmé en télétravail. Tu peux travailler de n’importe où avec une bonne connexion, même à l’étranger si cela n’influence pas ta productivité. Si la stack technique te botte mais que tu es junior, c&rsquo;est possible également de te former (uniquement sur Annecy) si tu es étudiant ou si tu as des compétences en graphisme/ops.
+			
+				<a href="https://lu.lumao.eu/post/job-magento/">Lire la suite...</a>
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/charte-vp/">Charte sur le respect de la vie privée</a></h1>
+		<time>08.03.2018 21:11</time>
+		
+		<div>
+			Date de dernière mise à jour : 09/03/2018
+La présente charte sur le respect de la vie privée (la « Charte ») a pour objectif de formaliser notre engagement quant au respect de la vie privée des utilisateurs du site internet lumao.eu exploité par Lumao SASU.
+La Charte est régie par les Conditions Générales d&rsquo;Utilisation du Site. Tous les termes en majuscules non-définis dans la présente Charte sont définis dans les Conditions Générales d&rsquo;Utilisation.
+			
+				<a href="https://lu.lumao.eu/post/charte-vp/">Lire la suite...</a>
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/cgs/">Conditions Générales de Services</a></h1>
+		<time>08.03.2018 21:11</time>
+		
+		<div>
+			Date de dernière mise à jour : 08/03/2018
+Article 1 – MENTION LÉGALES Le présent site, accessible à l&rsquo;URL https://lumao.eu/ (le « Site »), est édité par :
+Lumao, SASU au capital de 100 euros, inscrite au R.C.S. d&rsquo;Annecy sous le numéro 835305657, dont le siège social est situé au 22 boulevard du Semnoz, 74600 Annecy, représenté(e) par Lavorel Aurélien dûment habilité(e),
+(Ci-après désigné le « Vendeur »).
+Le numéro individuel TVA de l&rsquo;Exploitant est : FR 68 835305657.
+			
+				<a href="https://lu.lumao.eu/post/cgs/">Lire la suite...</a>
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/sftp-docker/">Connexion SFTP avec Docker</a></h1>
+		<time>22.02.2018 11:11</time>
+		
+		<div>
+			Comment accéder au contenu sur vos containeurs Docker ?
+Comme sur les autres, via (s)ftp.
+SFTP Pourquoi faire ça Dans la logique DevOps, on ne va pas utiliser la connexion sftp pour modifier le code directement en prod, non on a le déploiement automatique et ça sera écrasé.
+Par contre, les webmasteurs ont surement besoin de modifier ou d&rsquo;ajouter régulièrement des médias au site. Il ne faut pas les versionner, c&rsquo;est pour cet usecase qu&rsquo;on va faire un containeur sftp.
+			
+				<a href="https://lu.lumao.eu/post/sftp-docker/">Lire la suite...</a>
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/aws-docker-deploy/">Elastic Beanstalk déployer containeur Docker</a></h1>
+		<time>22.02.2018 11:11</time>
+		
+		<div>
+			On a vu comment déployer automatiquement du code quand on push sur une branche. Maintenant, il est temps de customiser le déploiement pour mettre nos containeurs.
+Configuration Beanstalk (EB) Pas grand chose à faire, si vous avez ceci dans votre tableau de bord, c&rsquo;est bon : Dockerfile Au déploiement, EB va lire les fichiers Dockerfile et Dockerrun.aws.json, on va rester sur le premier vu qu&rsquo;on connait déjà.
+Dans le principe, EB va éxecuter le containeur et le publier une fois qu&rsquo;il aura fini.
+			
+				<a href="https://lu.lumao.eu/post/aws-docker-deploy/">Lire la suite...</a>
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/magento-ses/">Envoyer des mails via Amazon SES sur Magento 2</a></h1>
+		<time>22.02.2018 11:11</time>
+		
+		<div>
+			Comment envoyer des e-mails via Amazon Simple Email Service pour un site sous Magento 2 ?
+Il y a 3 étapes :
+ Configurer le compte Amazon
+ Changer les DNS
+ Valider les e-mails
+ Installer/Configurer une extension Magento
+  Amazon Pour une fois, on ne peut pas utiliser le service depuis beaucoup de zones, en Europe ce sera l&rsquo;Irlande (eu-west-1 pour les intimes).
+Ajouter un domaine Il faut d&rsquo;abord autoriser le domaine à envoyer les mails, ça se passe depuis la console.
+			
+				<a href="https://lu.lumao.eu/post/magento-ses/">Lire la suite...</a>
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/gitlab-aws/">Gitlab CI &#43; AWS</a></h1>
+		<time>22.02.2018 11:11</time>
+		
+		<div>
+			Aujourd&rsquo;hui, on va voir comment faire un déploiement automatique (Continuous Deployment, CD pour la suite) au push sur une branche de Gitlab.
+Alternatives à Gitlab Tout d&rsquo;abord quelques alternatives à Gitlab CI, il y en a beaucoup d&rsquo;autres.
+ Travis CI CircleCI Jenkins Bamboo &hellip;  Alternatives à AWS Vous pouvez brancher n&rsquo;importe quoi comme système de déploiement, du moment que vous arrivez à lancer le déploiement depuis un containeur Docker.
+			
+				<a href="https://lu.lumao.eu/post/gitlab-aws/">Lire la suite...</a>
+			
+		</div>
+	</article></div>
+		
+			<div class="section-about">	<article>
+		<h1><a href="https://lu.lumao.eu/post/contact/">Contact Lumao</a></h1>
+		<time>09.04.2017 16:11</time>
+		
+		<div>
+			N&rsquo;hésitez pas à parler de votre projet.
+ +33 (0)4 58 10 14 18
+ via ce formulaire      Envoyer un message
+			
+		</div>
+	</article></div>
+		
+		<div>
+
+1 sur 3
+
+	<a href="/post/page/2/">Page suivante</a>
+
+</div>
+	</div>
+	<aside>
+		<div>
+			<div>
+				<h3>Dernier articles</h3>
+			</div>
+			<div>
+				<ul>
+					
+					<li><a href="https://lu.lumao.eu/ecommerce/cms/magento/erp/">Connecter Magento et ERP : Lumao gère votre Projet de A à Z</a></li>
+					
+					<li><a href="https://lu.lumao.eu/ecommerce/cms/magento/expert/">Expert Magento | Développeur Web et Equipe Magento</a></li>
+					
+					<li><a href="https://lu.lumao.eu/ecommerce/cms/magento/formation/">Formation Magento 2</a></li>
+					
+					<li><a href="https://lu.lumao.eu/ecommerce/cms/magento/solution-partner/">Magento Solution Partner | Lumao, Agence Certifiée Magento</a></li>
+					
+					<li><a href="https://lu.lumao.eu/ecommerce/cms/magento/crm/">Magento et CRM : Connaissez vos Clients et leurs Besoins</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</aside>
+	<footer class="footer-bottom">
+		<p class="copyright">&copy; 2018 Lumao SASU - 835 305 657 R.C.S. Annecy - Développé avec <i class="fa fa-heart-o"></i> par <a href="http://lavoweb.net">LavoWeb</a> - Genève, Suisse</p>
+		<p class="copyright">Nous nous déplaçons sur Genève, Lausanne, Neuchâtel et dans le canton du Jura</p>
+	</footer>
+	<link rel="stylesheet" href="https://lu.lumao.eu/dist/all.css">
+	<script src="https://lu.lumao.eu/dist/all.js"></script>
+	<script>
+        jQuery(document).ready(function() {
+			jQuery('img').each(function() {
+				jQuery(this).addClass('img-responsive');
+			});
+			jQuery('h2').each(function() {
+				jQuery(this).addClass('title-middle');
+			});
+        });
+	</script>
+	<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=5834f365-e0f5-4aed-929d-fd5bce2c17f7"> </script>
+	</body>
+</html>

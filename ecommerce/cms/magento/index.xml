@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMS Magento on Développement Magento</title>
+    <link>https://lu.lumao.eu/ecommerce/cms/magento/</link>
+    <description>Recent content in CMS Magento on Développement Magento</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lu.lumao.eu/ecommerce/cms/magento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connecter Magento et ERP : Lumao gère votre Projet de A à Z</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/erp/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/erp/</guid>
+      <description>Pour optimiser la gestion de votre entreprise et assurer le succès de votre site de vente en ligne, ces deux écosystèmes doivent communiquer leurs informations entre eux, et ce, de manière correcte et fiable. Par exemple, les données de niveau de stock de l’entreprise doivent être connues par le site e- commerce, sous peine de vendre des produits indisponibles… et de décevoir le client. Pour synchroniser les données entre site Magento et ERP, plusieurs solutions techniques existent.</description>
+    </item>
+    
+    <item>
+      <title>Expert Magento | Développeur Web et Equipe Magento</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/expert/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/expert/</guid>
+      <description>Depuis son lancement en 2008, la plateforme Magento est largement plébiscitée par les acteurs du e-commerce. La solution open source permet en effet de produire des boutiques en ligne performantes, stables et modulables. S’il est relativement aisé d’installer la solution et d’utiliser le CMS, il devient rapidement complexe d’exploiter pleinement les outils disponibles, de faire évoluer le site, de le maintenir fonctionnel sur la durée, de le personnaliser totalement, de le connecter à un système d’information… Magento demande des compétences techniques particulières, d’autant plus depuis la sortie de Magento 2 en 2015.</description>
+    </item>
+    
+    <item>
+      <title>Formation Magento 2</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/formation/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/formation/</guid>
+      <description>Formation technique Magento 2 back end pour comprendre le fonctionnement de Magento et modifier le comportement natif. La formation consiste à avoir des explications sur chaque composant de Magento, regarder un bout de code correspondant puis appliquer. Plus on avance dans la formation, plus on a des exemples complets.
+Pré-requis  Bon niveau technique en PHP Connaissance des lignes de commande Installer Docker  Programme Jour 1  Composer, repo Magento Docker Description fonctionnelle de Magento (CE/EE) Stack technique de Magento Modes Arborescence Installation de Magento Création d&amp;rsquo;un module Création d&amp;rsquo;un thème Changer un fichier existant Contrôleur Block Layouts  Jour 2  ORM Création d&amp;rsquo;un module complet Surcharges UI Component  Jour 3  Grille backoffice  Tarif 1 400€ HT par participant</description>
+    </item>
+    
+    <item>
+      <title>Magento Solution Partner | Lumao, Agence Certifiée Magento</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/solution-partner/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/solution-partner/</guid>
+      <description>Il existe plusieurs solutions pour développer et gérer un site de vente en ligne. Chez Lumao, nous avons choisi Magento, un CMS apparu sur le marché en 2008 et pour lequel nous nous sommes immédiatement passionnés. Cette plateforme « tout-en-un » de vente à distance offre en effet des possibilités techniques de haut vol. A tel point que, dans le monde, plusieurs centaines de milliers de sites fonctionnent actuellement sous Magento.</description>
+    </item>
+    
+    <item>
+      <title>Magento et CRM : Connaissez vos Clients et leurs Besoins</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/crm/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/crm/</guid>
+      <description>Connaissez-vous précisément vos clients ? Si vous utilisez un CRM, il y a de fortes chances pour que vous ayez d’ores et déjà une bonne vision des attentes de votre clientèle. Ce logiciel de gestion de la relation client (GRC) peut être couplé à votre site e-commerce. Cet interfaçage vous permettra de recueillir encore plus de données et d’enrichir votre connaissance client. Ce qui vous est forcément bénéfique. La plateforme e-commerce Magento peut être interfacée avec de nombreux outils de CRM.</description>
+    </item>
+    
+    <item>
+      <title>Magento et PIM : Exploitez vos Données Produits</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/pim/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/pim/</guid>
+      <description>Si votre activité commerciale vous amène à vendre vos produits via différents canaux, il y a de fortes chances que vous ayez besoin d’une solution PIM. Et que celle-ci soit connectée à votre plateforme e-commerce Magento ou autre. En effet, une stratégie multicanale, voire omnicanale, impose une gestion des données produits optimale et raisonnée. Ce qui n’est jamais évident, surtout si vous proposez de nombreuses références de produits en provenance de multiples fournisseurs et autres sources tierces.</description>
+    </item>
+    
+    <item>
+      <title>Optimisation Magento : Améliorez vos Performances</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/optimisation/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/optimisation/</guid>
+      <description>Le succès d’un site e-commerce se mesure principalement à son taux de conversion. Si celui-ci n’augmente pas suffisamment pour répondre à vos objectifs, voire qu’il chute dangereusement, il est temps d’envisager une stratégie d’optimisation. Lumao et ses experts Magento et e-commerce vous aident à identifier ces freins à la conversion qui pénalisent votre site. Ils trouvent également les solutions à mettre en place, toujours avec dans un souci de rentabilité et dans le respect de votre budget.</description>
+    </item>
+    
+    <item>
+      <title>La Maintenance de votre Site Magento par des Experts</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/maintenance/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/maintenance/</guid>
+      <description>Le web est en évolution permanente. De nouvelles fonctionnalités et extensions sont progressivement disponibles pour enrichir les sites internet ; et à leurs côtés naissent aussi de nouvelles failles de sécurité et des sources potentielles de bugs. Autant dire que votre site e-commerce peut bénéficier de pistes d’amélioration significatives et souffrir de problèmes techniques graves. Ce qui est préjudiciable, surtout pour un site e-commerce. C’est pourquoi la maintenance de votre site marchand sur le long terme doit être au cœur de vos préoccupations, que vous vous en occupiez vous-même en interne ou que vous déléguiez cette mission à un prestataire externe tel que Lumao, agence experte en sites e-commerce et de la plateforme Magento.</description>
+    </item>
+    
+    <item>
+      <title>Magento B2B Marketplace &amp; Fonctionnalités pour les Pros</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/b2b-marketplace/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/b2b-marketplace/</guid>
+      <description>Depuis 2010, un nouveau business model s’impose dans le domaine du e-commerce : la marketplace. Celle-ci propose aux internautes les produits et/ou les services non plus d’un seul et unique vendeur, mais de plusieurs partenaires. Ce qui représente des avantages pour les clients, les vendeurs et pour l’administrateur de cette place de marché. Alors que Magento s’est largement positionné sur le site e-commerce B2C, la plateforme peut intégrer désormais des solutions pour créer et gérer une marketplace B2B.</description>
+    </item>
+    
+    <item>
+      <title>Magento Connect : des Modules d’Extension pour votre Site</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/connect/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/connect/</guid>
+      <description>Un gestionnaire de contenu tel que Magento dispose de fonctionnalités standards pour mettre en place un site de vente en ligne. Mais dès lors que vous souhaitez enrichir votre e-boutique de nouvelles fonctions, vous devez installer des modules d’extension. Ces derniers sont disponibles en nombre sur la plateforme e-commerce du CMS : Magento Marketplace, anciennement Magento Connect. De quoi s’agit-il exactement ? Comment installer une extension ? Quels modules choisir ?</description>
+    </item>
+    
+    <item>
+      <title>Magento Download | Installation de la Solution sur votre Serveur</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/telecharger/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/telecharger/</guid>
+      <description>Pour créer une boutique en ligne sur mesure, vous avez besoin d’un CMS, c’est-à-dire d’un gestionnaire de contenu (Content Management System). Ce type de logiciels open source sont nombreux sur le marché. Parmi eux, Magento, une plateforme lancée en 2008 et spécialisée dans la création de sites e-commerce. Comment télécharger et installer cette solution ?
+Avant de commencer Avant tout, si vous souhaitez profiter des fonctionnalités de Magento pour votre activité commerciale en ligne, sachez que vous devez disposer de certains éléments :</description>
+    </item>
+    
+    <item>
+      <title>Magento Marketplace, des Extensions E-Commerce par Milliers</title>
+      <link>https://lu.lumao.eu/ecommerce/cms/magento/marketplace/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/cms/magento/marketplace/</guid>
+      <description>Lorsque vous installez Magento, de multiples fonctionnalités dites « natives » sont d’ores et déjà à votre disposition. Elles vous serviront à ajouter des options, des services et des modules à votre site de vente en ligne. Ces fonctionnalités remplissent de multiples objectifs : offrir une expérience de qualité aux internautes, fournir des rapports de performance du site, optimiser son référencement naturel, etc. Elles sont nombreuses, mais pour personnaliser votre boutique en ligne et la rendre réellement efficace, vous aurez besoin de nouvelles fonctionnalités.</description>
+    </item>
+    
+  </channel>
+</rss>

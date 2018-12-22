@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tunnel de Vente : le Parcours d&#39;Achat de vos Clients on Développement Magento</title>
+    <link>https://lu.lumao.eu/ecommerce/tunnel-de-vente/</link>
+    <description>Recent content in Tunnel de Vente : le Parcours d&#39;Achat de vos Clients on Développement Magento</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lu.lumao.eu/ecommerce/tunnel-de-vente/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Solution de Paiement en Ligne | Comment Choisir ? </title>
+      <link>https://lu.lumao.eu/ecommerce/tunnel-de-vente/paiement/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lu.lumao.eu/ecommerce/tunnel-de-vente/paiement/</guid>
+      <description>Le but premier de votre site e-commerce : vendre vos produits ou/et vos services aux internautes. Et pour que ces clients puissent régler leurs achats, ils doivent avoir à leur disposition une solution de paiement facile à utiliser et fiable. Etape clé de votre tunnel de vente, cette solution requiert toute votre attention. Nous vous donnons ici des informations qui vous aideront à choisir celle qui convient le mieux à votre boutique en ligne et à votre clientèle.</description>
+    </item>
+    
+  </channel>
+</rss>
