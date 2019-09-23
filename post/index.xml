@@ -11,7 +11,11 @@ Comment récupérer la véritable adresse IP des visiteurs avec CloudFlare ? C&a
 Vos principales missions Vous prospectez des clients B2B ayant envie d&amp;rsquo;ouvrir un site de vente en ligne.
 Vous prospectez des clients B2C ayant déjà un site sous Magento afin de récupérer la TMA.
 Vous intervenez sur l’ensemble du cycle de vente depuis la génération de demandes jusqu’à la négociation et la conclusion des contrats,
-Vous suivez ensuite votre client dans une optique de fidélisation et de développement de chiffre d’affaires,</description></item><item><title>Tester un script Gitlab CI</title><link>https://lu.lumao.eu/post/test-gitlab-ci/</link><pubDate>Mon, 07 Jan 2019 16:11:14 +0100</pubDate><guid>https://lu.lumao.eu/post/test-gitlab-ci/</guid><description>Quand on fait des scripts de déploiement via Gitlab CI, on réussit rarement du premier coup. Pour éviter quelques commits, c&amp;rsquo;est intéressant de tester le script de Gitlab CI en local.
+Vous suivez ensuite votre client dans une optique de fidélisation et de développement de chiffre d’affaires,</description></item><item><title>Recrutement Chef de projet technique Magento</title><link>https://lu.lumao.eu/post/job-cdp/</link><pubDate>Mon, 07 Jan 2019 16:11:14 +0100</pubDate><guid>https://lu.lumao.eu/post/job-cdp/</guid><description>Qui sommes-nous ?
+Périmètre : projet/TMA
+Vos principales missions Gérer la communication (téléphone, email) avec les clients. Les éduquer, quand ils ouvrent un ticket par email/téléphone, leur explique qu&amp;rsquo;il faut le mettre dans l&amp;rsquo;outil de ticketing.
+Gérer le planning et les priorités des développeurs.
+Pouvoir résoudre des &amp;ldquo;petits problèmes&amp;rdquo; de TMA sans l&amp;rsquo;aide de développeur. Exemple : suivre une documentation pour faire des requêtes SQL, changer une couleur en CSS, faire de la contribution.</description></item><item><title>Tester un script Gitlab CI</title><link>https://lu.lumao.eu/post/test-gitlab-ci/</link><pubDate>Mon, 07 Jan 2019 16:11:14 +0100</pubDate><guid>https://lu.lumao.eu/post/test-gitlab-ci/</guid><description>Quand on fait des scripts de déploiement via Gitlab CI, on réussit rarement du premier coup. Pour éviter quelques commits, c&amp;rsquo;est intéressant de tester le script de Gitlab CI en local.
 Ca vous évitera la review et les moqueries des collègues.
 Pour ça, il faut &amp;ldquo;juste&amp;rdquo; avoir Docker et Gitlab-Runner sur son pc.
 Gitlab Runner C&amp;rsquo;est ici : https://docs.gitlab.com/runner/install/
