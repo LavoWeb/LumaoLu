@@ -7,6 +7,7 @@
   cap_add:
     - NET_ADMIN
   restart: always
+</code></pre><p>Pour ajouter le support ipv6, il faut malheureusement lancer le containeur en root :</p><pre><code>  privileged: true
 </code></pre><p>On fait la configuration :</p><pre><code>docker run --name openvpn_openvpn_1 -v /etc/openvpn busybox
 docker run --volumes-from openvpn_openvpn_1 --rm kylemanna/openvpn ovpn_genconfig -u udp://VPN.SERVERNAME.COM
 docker run --volumes-from openvpn_openvpn_1 --rm -it kylemanna/openvpn ovpn_initpki
