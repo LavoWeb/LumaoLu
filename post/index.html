@@ -18,11 +18,11 @@ Menu principal, toujours visible, au clic on affiche les parties 2/3.
 La liste des sous-catégories.
 Le contenu mis en avant.
 Bannière promo optionnelle Liste de produits optionnelle Back Menu On utilise 3 composants du menu :</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/cloudflare-magento-2/>Récupérer l'adresse IP des visiteurs avec CloudFlare</a></h2><div>Si vous utilisez le CDN CloudFlare et que vous souhaitez mettre votre e-commerce en mode maintenance, vous avez surement remarqué que la liste blanche ne fonctionne plus, c&rsquo;est normal, CloudFlare est un Reverse Proxy, vous voyez son IP et plus celle du visiteur.
-Comment récupérer la véritable adresse IP des visiteurs avec CloudFlare ? C&rsquo;est simple, il suffit de changer l&rsquo;injection de dépendance pour récupérer le header HTTP_CF_CONNECTING_IP au lieu de REMOTE_ADDR.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-bizdev/>Recrutement Business Developer</a></h2><div>Qui sommes-nous ?
+Comment récupérer la véritable adresse IP des visiteurs avec CloudFlare ? C&rsquo;est simple, il suffit de changer l&rsquo;injection de dépendance pour récupérer le header HTTP_CF_CONNECTING_IP au lieu de REMOTE_ADDR.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-bizdev/>Recrutement Business Developer - Agence Magento LUMAO</a></h2><div>Qui sommes-nous ?
 Vos principales missions Vous prospectez des clients B2B ayant envie d&rsquo;ouvrir un site de vente en ligne.
 Vous prospectez des clients B2C ayant déjà un site sous Magento afin de récupérer la TMA.
 Vous intervenez sur l’ensemble du cycle de vente depuis la génération de demandes jusqu’à la négociation et la conclusion des contrats,
-Vous suivez ensuite votre client dans une optique de fidélisation et de développement de chiffre d’affaires,</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-cdp/>Recrutement Chef de projet technique Magento</a></h2><div>Qui sommes-nous ?
+Vous suivez ensuite votre client dans une optique de fidélisation et de développement de chiffre d’affaires,</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-cdp/>Recrutement Chef de projet technique Magento - Agence LUMAO</a></h2><div>Qui sommes-nous ?
 Périmètre : projet/TMA
 Vos principales missions Gérer la communication (téléphone, email) avec les clients. Les accompagner, quand ils ouvrent un ticket par email/téléphone, leur explique qu&rsquo;il faut le mettre dans l&rsquo;outil de ticketing.
 Gérer le planning et les priorités des développeurs.
@@ -36,11 +36,11 @@ gitlab-runner exec docker deploy_preproduction &ndash;env SERVER_IP=1.2.3.4 &nda
 Docker Sync http://docker-sync.io/
 docker-sync.yml
 version: '2' options: compose-dev-file-path: 'docker-compose.yml' verbose: true syncs: poc-magento2-sync: src: ./ sync_userid: '33' sync_excludes: [ '.idea', '.buildpath', '.project', '.settings', '.DS_Store', '.gitlab-ci.yml', 'generated', 'setup', 'vendor', 'var' ] watch_excludes: [ '.idea', '.buildpath', '.project', '.settings', '.DS_Store', '.gitlab-ci.yml', 'generated', 'setup', 'vendor', 'var' ] docker-sync start docker-compose.yml
-version: "2" services: php: image: lavoweb/php-7.0:xdebug expose: - 80 volumes: - app_sync:/var/www/html volumes: app_sync: external: name: poc-magento2-sync docker-compose up -d</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/openvpn-docker/>Configurer OpenVPN avec Docker</a></h2><div>Un article très court aujourd&rsquo;hui pour monter un VPN sur un serveur avec docker-compose en quelques minutes.
+version: "2" services: php: image: lavoweb/php-7.0:xdebug expose: - 80 volumes: - app_sync:/var/www/html volumes: app_sync: external: name: poc-magento2-sync docker-compose up -d</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/openvpn-docker/>Configurer OpenVPN avec Docker - Agence Magento LUMAO</a></h2><div>Un article très court aujourd&rsquo;hui pour monter un VPN sur un serveur avec docker-compose en quelques minutes.
 Serveur OpenVPN Très simple, on crée un répertoire openvpn et on met le fichier docker-compose.yml :
 openvpn: image: 'kylemanna/openvpn' volumes: - './data:/etc/openvpn' ports: - "1194:1194/udp" cap_add: - NET_ADMIN restart: always Pour ajouter le support ipv6, il faut malheureusement lancer le containeur en root :
 privileged: true On fait la configuration :
-docker run --name openvpn_openvpn_1 -v /etc/openvpn busybox docker run --volumes-from openvpn_openvpn_1 --rm kylemanna/openvpn ovpn_genconfig -u udp://VPN.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-magento/>Recrutement développeur Magento</a></h2><div>Avant toute chose, l&rsquo;offre est pour plusieurs profils, c&rsquo;est normal de ne pas avoir toutes les compétences !
+docker run --name openvpn_openvpn_1 -v /etc/openvpn busybox docker run --volumes-from openvpn_openvpn_1 --rm kylemanna/openvpn ovpn_genconfig -u udp://VPN.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-magento/>Recrutement développeur Magento - Agence LUMAO</a></h2><div>Avant toute chose, l&rsquo;offre est pour plusieurs profils, c&rsquo;est normal de ne pas avoir toutes les compétences !
 Qui sommes-nous ?
 On recherche un développeur Magento confirmé en télétravail (on paye l&rsquo;espace de coworking si besoin). Tu peux travailler de n’importe où avec une bonne connexion, même à l’étranger si cela n’influence pas ta productivité. Si la stack technique te botte mais que tu es junior, c&rsquo;est possible également de te former (uniquement sur Annecy) si tu es étudiant ou si tu as des compétences en graphisme/ops.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/charte-vp/>Charte sur le respect de la vie privée</a></h2><div>Date de dernière mise à jour : 09/03/2018
 La présente charte sur le respect de la vie privée (la « Charte ») a pour objectif de formaliser notre engagement quant au respect de la vie privée des utilisateurs du site internet lumao.eu exploité par Lumao SASU.
@@ -58,7 +58,7 @@ Valider les e-mails
 Installer/Configurer une extension Magento
 Amazon Pour une fois, on ne peut pas utiliser le service depuis beaucoup de zones, en Europe ce sera l&rsquo;Irlande (eu-west-1 pour les intimes).</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/gitlab-aws/>Gitlab CI + AWS</a></h2><div>Aujourd&rsquo;hui, on va voir comment faire un déploiement automatique (Continuous Deployment, CD pour la suite) au push sur une branche de Gitlab.
 Alternatives à Gitlab Tout d&rsquo;abord quelques alternatives à Gitlab CI, il y en a beaucoup d&rsquo;autres.
-Travis CI CircleCI Jenkins Bamboo &mldr; Alternatives à AWS Vous pouvez brancher n&rsquo;importe quoi comme système de déploiement, du moment que vous arrivez à lancer le déploiement depuis un containeur Docker.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/contact/>Contact Lumao</a></h2><div>Intéressé pour en savoir plus sur notre expertise certifiée par Magento ?
+Travis CI CircleCI Jenkins Bamboo &mldr; Alternatives à AWS Vous pouvez brancher n&rsquo;importe quoi comme système de déploiement, du moment que vous arrivez à lancer le déploiement depuis un containeur Docker.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/contact/>Contact Lumao : Agence Ecommerce 100% Magento</a></h2><div>Intéressé pour en savoir plus sur notre expertise certifiée par Magento ?
 N&rsquo;hésitez pas à parler de votre projet.
 +33 (0)4 58 10 14 18
 via ce formulaire
@@ -67,7 +67,7 @@ Il a tout de suite été adopté par de nombreux développeurs (nous les premier
 Création d'APIs Laravel permet de créer une API en quelques clics, c'est adapté pour faire un prototype pour des startups.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-apporteur-affaire/>Recrutement freelance apporteur d'affaire</a></h2><div>Qui sommes-nous ?
 Bonjour,
 On recherche un business developer/apporteur d&rsquo;affaire capable d&rsquo;apporter des projets e-commerce de grande envergure : 25-200k.
-On propose une rémunération à la commission. C&rsquo;est possible de faire de la marque blanche.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-secretaire/>Recrutement secrétaire freelance</a></h2><div>Qui sommes-nous ?
+On propose une rémunération à la commission. C&rsquo;est possible de faire de la marque blanche.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/job-secretaire/>Recrutement secrétaire freelance - Agence Magento LUMAO</a></h2><div>Qui sommes-nous ?
 Toujours en recherche
 Bonjour,
 On recherche un secrétaire freelance sur Annecy pour gérer les &ldquo;papiers&rdquo; de l&rsquo;entreprise.
@@ -76,7 +76,7 @@ Classer les factures suivant l&rsquo;ordre d&rsquo;apparition sur les comptes
 Gérer les notes de frais/indemnité kilométrique
 Vérifier la TVA sur l&rsquo;outil comptable et potentiellement &ldquo;ventiler&rdquo; les dépenses
 Relancer les factures
-Il faudrait venir sur place une fois par mois pour faire le tri.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/developpement-akeneo/>Développement Akeneo</a></h2><div>Akeneo est un Product Information Management. Avec cet outil, vous pouvez gérer des collections de produits très facilement. Pour tous les formats, que ce soit web, print, les données ERP&mldr;
+Il faudrait venir sur place une fois par mois pour faire le tri.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/developpement-akeneo/>Développement Akeneo - PIM Magento Agence & Developpeur</a></h2><div>Akeneo est un Product Information Management. Avec cet outil, vous pouvez gérer des collections de produits très facilement. Pour tous les formats, que ce soit web, print, les données ERP&mldr;
 Le principe est que le PIM contient toutes les informations des produits et est le maitre de l&rsquo;information. Il est souvent couplé avec un Data Asset Management qui stocke les médias (photos, vidéos, musiques&mldr;).
 Akeneo est développé en Symfony 2 et repose sur Oro Platform, un framework robuste et développé activement.</div></article></div><div class=section-about><article><h2><a href=https://lumao.ch/post/0005-seocampus-2017/>Présentation Seocampus 2017</a></h2><div>Merci d&rsquo;être venu si nombreux à ma conférence au SEO Campus Paris 2017. J&rsquo;étais &ldquo;un peu&rdquo; stressé, j&rsquo;espère que ça vous a plu quand même.
 Voici les liens des modules que j&rsquo;ai évoqués :
